@@ -134,7 +134,7 @@ Temporary passwords for each created user will be generated and saved in the **R
 
 * Follow the deployment instructions for MS_DevStation
 
-* Run the script **AD_GPOs**, this will apply my altered versions of the Microsoft Security Baseline GPOs to MS_AD and MS_DevStation;the reasons for these alterations are explained (here)[Preface.md].
+* Run the script **AD_GPOs**, this will apply my altered versions of the Microsoft Security Baseline GPOs to MS_AD and MS_DevStation;the reasons for these alterations are explained (here)[Introduction.md].
 
 * Reboot both Windows VMs at this point. 
 
@@ -403,7 +403,7 @@ git clone https://github.com/nniemeir/Enterprise-Computing-I
 chmod +x Enrollment.sh Post-Enrollment.sh
 ~~~
 
-* Run the script **Enrollment.sh**, this will configure network settings and install some necessary packages before it enrolls the device as a ipa-client. Reasons for installing these packages are explained (here)[preface.md].
+* Run the script **Enrollment.sh**, this will configure network settings and install some necessary packages before it enrolls the device as a ipa-client. Reasons for installing these packages are explained (here)[Introduction.md].
 
 * Run the script **Post-Enrollment.sh**, this will install Ansible and generate SSH keys for this VM. 
 
